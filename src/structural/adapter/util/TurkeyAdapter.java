@@ -1,7 +1,7 @@
 package structural.adapter.util;
 
-import structural.adapter.models.interfaces.Duck;
-import structural.adapter.models.interfaces.Turkey;
+import structural.adapter.models.Duck;
+import structural.adapter.models.Turkey;
 
 public class TurkeyAdapter implements Duck {
 	private Turkey turkey;

@@ -1,4 +1,4 @@
-package structural.adapter.models.interfaces;
+package structural.adapter.models;
 
 public interface Duck {
 	public void quack();

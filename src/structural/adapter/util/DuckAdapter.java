@@ -2,8 +2,8 @@ package structural.adapter.util;
 
 import java.util.Random;
 
-import structural.adapter.models.interfaces.Duck;
-import structural.adapter.models.interfaces.Turkey;
+import structural.adapter.models.Duck;
+import structural.adapter.models.Turkey;
 
 public class DuckAdapter implements Turkey {
 	private Duck duck;

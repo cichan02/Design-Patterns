@@ -3,10 +3,10 @@ package structural.adapter;
 import java.util.Iterator;
 import java.util.List;
 
-import structural.adapter.models.classes.MallardDuck;
-import structural.adapter.models.classes.WildTurkey;
-import structural.adapter.models.interfaces.Duck;
-import structural.adapter.models.interfaces.Turkey;
+import structural.adapter.models.Duck;
+import structural.adapter.models.MallardDuck;
+import structural.adapter.models.Turkey;
+import structural.adapter.models.WildTurkey;
 import structural.adapter.util.IteratorAdapter;
 import structural.adapter.util.TurkeyAdapter;
 

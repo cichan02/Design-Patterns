@@ -1,6 +1,4 @@
-package structural.adapter.models.classes;
-
-import structural.adapter.models.interfaces.Duck;
+package structural.adapter.models;
 
 public class MallardDuck implements Duck {
 	@Override

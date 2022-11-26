@@ -1,6 +1,4 @@
-package structural.adapter.models.classes;
-
-import structural.adapter.models.interfaces.Turkey;
+package structural.adapter.models;
 
 public class WildTurkey implements Turkey {
 	@Override
