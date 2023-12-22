@@ -4,28 +4,25 @@ import java.util.Iterator;
 
 import by.piskunou.study.behavioral.iterator.menu.Menu;
 import by.piskunou.study.behavioral.iterator.menu.MenuItem;
+import lombok.AllArgsConstructor;
+import org.jetbrains.annotations.NotNull;
 
+@AllArgsConstructor
 public class Waitress {
-	private Menu pancakeHouseMenu;
-	private Menu dinerMenu;
-	private Menu cafeMenu;
-
-	public Waitress(Menu pancakeHouseMenu, Menu dinerMenu, Menu cafeMenu) {
-		this.pancakeHouseMenu = pancakeHouseMenu;
-		this.dinerMenu = dinerMenu;
-		this.cafeMenu = cafeMenu;
-	}
+	private final Menu pancakeHouseMenu;
+	private final Menu dinerMenu;
+	private final Menu cafeMenu;
 
 	public void printMenu() {
 		System.out.println("MENU\n----\nBREAKFAST");
-		printMenu(pancakeHouseMenu.createItetaror());
+		printMenu(pancakeHouseMenu.createIterator());
 		System.out.println("\nLUNCH");
-		printMenu(dinerMenu.createItetaror());
+		printMenu(dinerMenu.createIterator());
 		System.out.println("\nDINNER");
-		printMenu(cafeMenu.createItetaror());
+		printMenu(cafeMenu.createIterator());
 	}
 
-	public void printMenu(Iterator<MenuItem> iterator) {
+	public void printMenu(@NotNull Iterator<MenuItem> iterator) {
 		while (iterator.hasNext()) {
 			MenuItem menuItem = iterator.next();
 			System.out.print(menuItem.getName() + ", ");

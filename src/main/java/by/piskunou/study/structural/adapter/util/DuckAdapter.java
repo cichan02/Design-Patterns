@@ -6,8 +6,8 @@ import by.piskunou.study.structural.adapter.models.Duck;
 import by.piskunou.study.structural.adapter.models.Turkey;
 
 public class DuckAdapter implements Turkey {
-	private Duck duck;
-	private Random rand;
+	private final Duck duck;
+	private final Random rand;
 	
 	public DuckAdapter(Duck duck) {
 		this.duck = duck;

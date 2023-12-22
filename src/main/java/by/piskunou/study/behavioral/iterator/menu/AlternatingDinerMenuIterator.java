@@ -4,9 +4,8 @@ import java.util.Calendar;
 import java.util.Iterator;
 
 public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {
-	private MenuItem[] items;
+	private final MenuItem[] items;
 	private int position;
-	
 
 	public AlternatingDinerMenuIterator(MenuItem[] items) {
 		this.items = items;
@@ -15,11 +14,8 @@ public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {
 
 	@Override
 	public boolean hasNext() {
-		if(position >= items.length || items[position] == null) {
-			return false;
-		}
-		return true;
-	}
+        return position < items.length && items[position] != null;
+    }
 
 	@Override
 	public MenuItem next() {
@@ -30,6 +26,6 @@ public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {
 
 	@Override
 	public void remove() {
-		throw new UnsupportedOperationException("Alternating Diner Menu Iterator doesn'r support remove()");
+		throw new UnsupportedOperationException("Alternating Diner Menu Iterator doesn't support remove()");
 	}
 }

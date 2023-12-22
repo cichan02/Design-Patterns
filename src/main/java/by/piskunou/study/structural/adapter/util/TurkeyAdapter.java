@@ -2,13 +2,11 @@ package by.piskunou.study.structural.adapter.util;
 
 import by.piskunou.study.structural.adapter.models.Turkey;
 import by.piskunou.study.structural.adapter.models.Duck;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class TurkeyAdapter implements Duck {
-	private Turkey turkey;
-	
-	public TurkeyAdapter(Turkey turkey) {
-		this.turkey = turkey;
-	}
+	private final Turkey turkey;
 
 	@Override
 	public void quack() {
