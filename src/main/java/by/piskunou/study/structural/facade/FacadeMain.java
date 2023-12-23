@@ -1,7 +1,10 @@
 package by.piskunou.study.structural.facade;
 
-public class FacadeMain {
-	public static void main(String[] args) {
-		
+import by.piskunou.study.Main;
+
+public class FacadeMain implements Main {
+	@Override
+	public void start() {
+
 	}
 }
