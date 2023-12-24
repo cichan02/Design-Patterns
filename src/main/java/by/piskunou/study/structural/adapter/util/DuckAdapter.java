@@ -2,8 +2,8 @@ package by.piskunou.study.structural.adapter.util;
 
 import java.util.Random;
 
-import by.piskunou.study.structural.adapter.models.Duck;
-import by.piskunou.study.structural.adapter.models.Turkey;
+import by.piskunou.study.ducks.Duck;
+import by.piskunou.study.ducks.Turkey;
 
 public class DuckAdapter implements Turkey {
 	private final Duck duck;
