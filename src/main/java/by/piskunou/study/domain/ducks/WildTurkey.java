@@ -1,4 +1,4 @@
-package by.piskunou.study.ducks;
+package by.piskunou.study.domain.ducks;
 
 public class WildTurkey implements Turkey {
 	@Override

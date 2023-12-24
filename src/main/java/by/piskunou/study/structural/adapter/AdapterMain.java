@@ -4,11 +4,11 @@ import java.util.Iterator;
 import java.util.List;
 
 import by.piskunou.study.Main;
-import by.piskunou.study.ducks.MallardDuck;
-import by.piskunou.study.ducks.Turkey;
-import by.piskunou.study.ducks.WildTurkey;
+import by.piskunou.study.domain.ducks.MallardDuck;
+import by.piskunou.study.domain.ducks.Turkey;
+import by.piskunou.study.domain.ducks.WildTurkey;
 import by.piskunou.study.structural.adapter.util.TurkeyAdapter;
-import by.piskunou.study.ducks.Duck;
+import by.piskunou.study.domain.ducks.Duck;
 import by.piskunou.study.structural.adapter.util.IteratorAdapter;
 import org.jetbrains.annotations.NotNull;
 
