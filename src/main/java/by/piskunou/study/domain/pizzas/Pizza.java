@@ -1,16 +1,15 @@
 package by.piskunou.study.domain.pizzas;
 
+import lombok.Getter;
+
 import java.util.*;
 
 abstract public class Pizza {
+	@Getter
 	String name;
 	String dough;
 	String sauce;
 	List<String> toppings = new ArrayList<String>();
-
-	public String getName() {
-		return name;
-	}
 
 	public void prepare() {
 		System.out.println("Preparing " + name);
@@ -29,13 +28,12 @@ abstract public class Pizza {
 	}
 
 	public String toString() {
-		// code to display pizza name and ingredients
-		StringBuffer display = new StringBuffer();
-		display.append("---- " + name + " ----\n");
-		display.append(dough + "\n");
-		display.append(sauce + "\n");
+		StringBuilder display = new StringBuilder();
+		display.append("---- ").append(name).append(" ----\n");
+		display.append(dough).append("\n");
+		display.append(sauce).append("\n");
 		for (String topping : toppings) {
-			display.append(topping + "\n");
+			display.append(topping).append("\n");
 		}
 		return display.toString();
 	}
