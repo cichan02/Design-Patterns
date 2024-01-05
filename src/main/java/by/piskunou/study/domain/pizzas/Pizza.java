@@ -6,10 +6,10 @@ import java.util.*;
 
 abstract public class Pizza {
 	@Getter
-	String name;
-	String dough;
-	String sauce;
-	List<String> toppings = new ArrayList<>();
+	protected String name;
+	protected String dough;
+	protected String sauce;
+	protected List<String> toppings = new ArrayList<>();
 
 	public void prepare() {
 		System.out.println("Preparing " + name);
