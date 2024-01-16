@@ -2,10 +2,11 @@ package by.piskunou.study.domain.pizzas;
 
 public class CheesePizza extends Pizza {
 	public CheesePizza() {
-		name = "Cheese Pizza";
-		dough = "Regular Crust";
-		sauce = "Marinara Pizza Sauce";
-		toppings.add("Fresh Mozzarella");
-		toppings.add("Parmesan");
+		this.name = "Cheese Pizza";
+		this.dough = "Regular Crust";
+		this.sauce = "Marinara Pizza Sauce";
+
+		this.toppings.add("Fresh Mozzarella");
+		this.toppings.add("Parmesan");
 	}
 }

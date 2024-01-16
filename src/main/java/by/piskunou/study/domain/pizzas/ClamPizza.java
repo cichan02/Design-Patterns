@@ -2,10 +2,11 @@ package by.piskunou.study.domain.pizzas;
 
 public class ClamPizza extends Pizza {
 	public ClamPizza() {
-		name = "Clam Pizza";
-		dough = "Thin crust";
-		sauce = "White garlic sauce";
-		toppings.add("Clams");
-		toppings.add("Grated parmesan cheese");
+		this.name = "Clam Pizza";
+		this.dough = "Thin crust";
+		this.sauce = "White garlic sauce";
+
+		this.toppings.add("Clams");
+		this.toppings.add("Grated parmesan cheese");
 	}
 }

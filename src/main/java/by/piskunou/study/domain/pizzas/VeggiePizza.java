@@ -2,14 +2,15 @@ package by.piskunou.study.domain.pizzas;
 
 public class VeggiePizza extends Pizza {
 	public VeggiePizza() {
-		name = "Veggie Pizza";
-		dough = "Crust";
-		sauce = "Marinara sauce";
-		toppings.add("Shredded mozzarella");
-		toppings.add("Grated parmesan");
-		toppings.add("Diced onion");
-		toppings.add("Sliced mushrooms");
-		toppings.add("Sliced red pepper");
-		toppings.add("Sliced black olives");
+		this.name = "Veggie Pizza";
+		this.dough = "Crust";
+		this.sauce = "Marinara sauce";
+
+		this.toppings.add("Shredded mozzarella");
+		this.toppings.add("Grated parmesan");
+		this.toppings.add("Diced onion");
+		this.toppings.add("Sliced mushrooms");
+		this.toppings.add("Sliced red pepper");
+		this.toppings.add("Sliced black olives");
 	}
 }
