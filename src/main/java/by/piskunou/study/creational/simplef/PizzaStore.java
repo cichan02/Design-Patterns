@@ -1,16 +1,17 @@
 package by.piskunou.study.creational.simplef;
 
 import by.piskunou.study.domain.pizzas.Pizza;
+import by.piskunou.study.domain.pizzas.PizzaType;
 
 public class PizzaStore {
-	SimplePizzaFactory factory;
+	private final SimplePizzaFactory factory;
  
 	public PizzaStore(SimplePizzaFactory factory) { 
 		this.factory = factory;
 	}
  
-	public Pizza orderPizza(String type) {
-		Pizza pizza = factory.createPizza(type);
+	public Pizza orderPizza(PizzaType pizzaType) {
+		Pizza pizza = factory.createPizza(pizzaType);
  
 		pizza.prepare();
 		pizza.bake();
