@@ -4,6 +4,7 @@ import by.piskunou.study.Main;
 import by.piskunou.study.creational.fmethod.chicago.ChicagoPizzaStore;
 import by.piskunou.study.creational.fmethod.newyork.NYPizzaStore;
 import by.piskunou.study.domain.pizzas.Pizza;
+import by.piskunou.study.domain.pizzas.PizzaType;
 
 public class FactoryMethodMain implements Main {
     @Override
@@ -11,28 +12,28 @@ public class FactoryMethodMain implements Main {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
 
-        Pizza pizza = nyStore.orderPizza("cheese");
+        Pizza pizza = nyStore.orderPizza(PizzaType.CHEESE);
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
-        pizza = chicagoStore.orderPizza("cheese");
+        pizza = chicagoStore.orderPizza(PizzaType.CHEESE);
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
-        pizza = nyStore.orderPizza("clam");
+        pizza = nyStore.orderPizza(PizzaType.CLAM);
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
-        pizza = chicagoStore.orderPizza("clam");
+        pizza = chicagoStore.orderPizza(PizzaType.CLAM);
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
-        pizza = nyStore.orderPizza("pepperoni");
+        pizza = nyStore.orderPizza(PizzaType.PEPPERONI);
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
-        pizza = chicagoStore.orderPizza("pepperoni");
+        pizza = chicagoStore.orderPizza(PizzaType.PEPPERONI);
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
-        pizza = nyStore.orderPizza("veggie");
+        pizza = nyStore.orderPizza(PizzaType.VEGGIE);
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
-        pizza = chicagoStore.orderPizza("veggie");
+        pizza = chicagoStore.orderPizza(PizzaType.VEGGIE);
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
     }
 }
