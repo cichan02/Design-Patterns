@@ -1,12 +1,16 @@
 package by.piskunou.study.domain.pizzas;
 
+import java.util.List;
+
 public class CheesePizza extends Pizza {
 	public CheesePizza() {
 		this.name = "Cheese Pizza";
 		this.dough = "Regular Crust";
 		this.sauce = "Marinara Pizza Sauce";
 
-		this.toppings.add("Fresh Mozzarella");
-		this.toppings.add("Parmesan");
+		this.toppings.addAll(List.of(
+				"Fresh Mozzarella",
+				"Parmesan"
+		));
 	}
 }

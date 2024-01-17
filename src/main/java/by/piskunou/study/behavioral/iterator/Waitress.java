@@ -1,11 +1,11 @@
 package by.piskunou.study.behavioral.iterator;
 
-import java.util.Iterator;
-
 import by.piskunou.study.behavioral.iterator.menu.Menu;
 import by.piskunou.study.behavioral.iterator.menu.MenuItem;
 import lombok.AllArgsConstructor;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.Iterator;
 
 @AllArgsConstructor
 public class Waitress {

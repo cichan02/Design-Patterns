@@ -2,7 +2,8 @@ package by.piskunou.study.domain.pizzas;
 
 import lombok.Getter;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 abstract public class Pizza {
 	@Getter
