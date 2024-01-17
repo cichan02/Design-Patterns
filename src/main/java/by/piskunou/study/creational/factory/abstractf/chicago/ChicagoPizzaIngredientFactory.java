@@ -15,31 +15,12 @@ import by.piskunou.study.creational.factory.abstractf.pizza.ingredient.veggies.V
 import by.piskunou.study.creational.factory.abstractf.pizza.ingredient.veggies.impl.BlackOlives;
 import by.piskunou.study.creational.factory.abstractf.pizza.ingredient.veggies.impl.Eggplant;
 import by.piskunou.study.creational.factory.abstractf.pizza.ingredient.veggies.impl.Spinach;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
-	private static volatile ChicagoPizzaIngredientFactory INSTANCE;
-
-	public static ChicagoPizzaIngredientFactory getInstance() {
-		ChicagoPizzaIngredientFactory result = INSTANCE;
-		if (Objects.nonNull(result)) {
-			return result;
-		}
-		synchronized (ChicagoPizzaIngredientFactory.class) {
-			if (Objects.isNull(INSTANCE)) {
-				INSTANCE = new ChicagoPizzaIngredientFactory();
-			}
-			return INSTANCE;
-		}
-	}
-
 	public Dough createDough() {
 		return new ThickCrustDough();
 	}

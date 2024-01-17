@@ -22,21 +22,6 @@ import java.util.List;
 import java.util.Objects;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
-	private static volatile NYPizzaIngredientFactory INSTANCE;
-
-	public static NYPizzaIngredientFactory getInstance() {
-		NYPizzaIngredientFactory result = INSTANCE;
-		if (Objects.nonNull(result)) {
-			return result;
-		}
-		synchronized (NYPizzaIngredientFactory.class) {
-			if (Objects.isNull(INSTANCE)) {
-				INSTANCE = new NYPizzaIngredientFactory();
-			}
-			return INSTANCE;
-		}
-	}
-	
 	public Dough createDough() {
 		return new ThinCrustDough();
 	}

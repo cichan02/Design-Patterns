@@ -40,7 +40,7 @@ public abstract class Pizza {
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
-		result.append("---- ").append(name).append(" ----\n");
+		result.append("\n---- ").append(name).append(" ----\n");
 		if (dough != null) {
 			result.append(dough);
 			result.append("\n");
