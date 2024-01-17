@@ -3,8 +3,8 @@ package by.piskunou.study.creational.factory.fmethod;
 import by.piskunou.study.Main;
 import by.piskunou.study.creational.factory.fmethod.chicago.ChicagoPizzaStore;
 import by.piskunou.study.creational.factory.fmethod.newyork.NYPizzaStore;
-import by.piskunou.study.domain.pizzas.Pizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
+import by.piskunou.study.domain.pizza.Pizza;
+import by.piskunou.study.domain.pizza.PizzaType;
 
 public class FactoryMethodMain implements Main {
     @Override

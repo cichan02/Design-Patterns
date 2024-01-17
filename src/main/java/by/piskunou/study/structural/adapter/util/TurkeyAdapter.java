@@ -1,7 +1,7 @@
 package by.piskunou.study.structural.adapter.util;
 
-import by.piskunou.study.domain.ducks.Duck;
-import by.piskunou.study.domain.ducks.Turkey;
+import by.piskunou.study.domain.duck.Duck;
+import by.piskunou.study.domain.duck.Turkey;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

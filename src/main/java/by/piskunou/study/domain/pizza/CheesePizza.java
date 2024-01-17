@@ -1,4 +1,4 @@
-package by.piskunou.study.domain.pizzas;
+package by.piskunou.study.domain.pizza;
 
 import java.util.List;
 

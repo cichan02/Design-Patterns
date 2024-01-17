@@ -1,6 +1,6 @@
 package by.piskunou.study.creational.factory.fmethod.newyork;
 
-import by.piskunou.study.domain.pizzas.Pizza;
+import by.piskunou.study.domain.pizza.Pizza;
 
 import java.util.List;
 

@@ -19,7 +19,6 @@ import by.piskunou.study.creational.factory.abstractf.pizza.ingredient.veggies.i
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	public Dough createDough() {

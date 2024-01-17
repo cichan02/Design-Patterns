@@ -1,8 +1,8 @@
 package by.piskunou.study.creational.factory.simplef;
 
 import by.piskunou.study.Main;
-import by.piskunou.study.domain.pizzas.Pizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
+import by.piskunou.study.domain.pizza.Pizza;
+import by.piskunou.study.domain.pizza.PizzaType;
 
 public class SimpleFactoryMain implements Main {
     @Override

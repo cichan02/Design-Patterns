@@ -7,7 +7,7 @@ import by.piskunou.study.creational.factory.abstractf.pizza.impl.CheesePizza;
 import by.piskunou.study.creational.factory.abstractf.pizza.impl.ClamPizza;
 import by.piskunou.study.creational.factory.abstractf.pizza.impl.PepperoniPizza;
 import by.piskunou.study.creational.factory.abstractf.pizza.impl.VeggiePizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
+import by.piskunou.study.domain.pizza.PizzaType;
 import org.jetbrains.annotations.NotNull;
 
 public class ChicagoPizzaStore extends PizzaStore {

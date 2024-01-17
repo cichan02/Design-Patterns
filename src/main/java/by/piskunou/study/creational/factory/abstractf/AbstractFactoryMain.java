@@ -4,7 +4,7 @@ import by.piskunou.study.Main;
 import by.piskunou.study.creational.factory.abstractf.chicago.ChicagoPizzaStore;
 import by.piskunou.study.creational.factory.abstractf.newyork.NYPizzaStore;
 import by.piskunou.study.creational.factory.abstractf.pizza.Pizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
+import by.piskunou.study.domain.pizza.PizzaType;
 
 public class AbstractFactoryMain implements Main {
 	@Override

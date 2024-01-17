@@ -1,4 +1,4 @@
-package by.piskunou.study.domain.ducks;
+package by.piskunou.study.domain.duck;
 
 public interface Turkey {
 	void gobble();

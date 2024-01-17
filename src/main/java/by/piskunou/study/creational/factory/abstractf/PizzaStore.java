@@ -1,7 +1,7 @@
 package by.piskunou.study.creational.factory.abstractf;
 
 import by.piskunou.study.creational.factory.abstractf.pizza.Pizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
+import by.piskunou.study.domain.pizza.PizzaType;
 
 public abstract class PizzaStore {
 	protected abstract Pizza createPizza(PizzaType pizzaType);

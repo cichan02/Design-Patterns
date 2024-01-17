@@ -1,10 +1,10 @@
 package by.piskunou.study;
 
-import by.piskunou.study.creational.factory.abstractf.AbstractFactoryMain;
+import by.piskunou.study.experimental.factory.abstractf.MyAbstractFactoryMain;
 
 public class App {
     public static void main(String[] args) {
-        Main main = new AbstractFactoryMain();
+        Main main = new MyAbstractFactoryMain();
         main.start();
     }
 }

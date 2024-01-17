@@ -1,11 +1,11 @@
 package by.piskunou.study.creational.factory.simplef;
 
-import by.piskunou.study.domain.pizzas.CheesePizza;
-import by.piskunou.study.domain.pizzas.ClamPizza;
-import by.piskunou.study.domain.pizzas.PepperoniPizza;
-import by.piskunou.study.domain.pizzas.Pizza;
-import by.piskunou.study.domain.pizzas.PizzaType;
-import by.piskunou.study.domain.pizzas.VeggiePizza;
+import by.piskunou.study.domain.pizza.CheesePizza;
+import by.piskunou.study.domain.pizza.ClamPizza;
+import by.piskunou.study.domain.pizza.PepperoniPizza;
+import by.piskunou.study.domain.pizza.Pizza;
+import by.piskunou.study.domain.pizza.PizzaType;
+import by.piskunou.study.domain.pizza.VeggiePizza;
 import org.jetbrains.annotations.NotNull;
 
 public class SimplePizzaFactory {
