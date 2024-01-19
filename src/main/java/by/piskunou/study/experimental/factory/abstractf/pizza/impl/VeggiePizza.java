@@ -10,6 +10,7 @@ import by.piskunou.study.experimental.factory.abstractf.pizza.ingredient.veggie.
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class VeggiePizza extends Pizza {
 	protected Dough dough;
@@ -32,7 +33,11 @@ public class VeggiePizza extends Pizza {
 				.append(dough).append('\n')
 				.append(sauce).append('\n')
 				.append(cheese).append('\n');
-		veggies.forEach(veggie -> result.append(veggie).append('\n'));
-		return result.toString();
+		String veggiesList = veggies.stream()
+				.map(Veggie::toString)
+				.collect(Collectors.joining(", "));
+		return result.append(veggiesList)
+				.append('\n')
+				.toString();
 	}
 }
