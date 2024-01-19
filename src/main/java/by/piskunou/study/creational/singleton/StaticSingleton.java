@@ -1,7 +1,7 @@
 package by.piskunou.study.creational.singleton;
 
 public class StaticSingleton {
-	private static StaticSingleton uniqueInstance = new StaticSingleton();
+	private static final StaticSingleton uniqueInstance = new StaticSingleton();
  
 	private StaticSingleton() {}
  
