@@ -29,15 +29,13 @@ public class VeggiePizza extends Pizza {
 
 	@Override
 	public String toString() {
-		StringBuilder result = new StringBuilder(super.toString())
-				.append(dough).append('\n')
-				.append(sauce).append('\n')
-				.append(cheese).append('\n');
-		String veggiesList = veggies.stream()
-				.map(Veggie::toString)
-				.collect(Collectors.joining(", "));
-		return result.append(veggiesList)
-				.append('\n')
-				.toString();
+		return super.toString() +
+                dough + '\n' +
+                sauce + '\n' +
+                cheese + '\n' +
+                veggies.stream()
+                        .map(Veggie::toString)
+                        .collect(Collectors.joining(", ")) +
+				'\n';
 	}
 }
