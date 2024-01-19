@@ -1,5 +1,6 @@
-package by.piskunou.study.experimental.factory.abstractf;
+package by.piskunou.study.experimental.singleton;
 
+import by.piskunou.study.experimental.factory.abstractf.PizzaIngredientFactory;
 import by.piskunou.study.experimental.factory.abstractf.newyork.NYPizzaIngredientFactory;
 
 import java.lang.reflect.Constructor;
