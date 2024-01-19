@@ -1,6 +1,6 @@
-package by.piskunou.study.experimental.factory.abstractf.newyork;
+package by.piskunou.study.experimental.factory.abstractf;
 
-import by.piskunou.study.experimental.factory.abstractf.PizzaIngredientFactory;
+import by.piskunou.study.experimental.factory.abstractf.newyork.NYPizzaIngredientFactory;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

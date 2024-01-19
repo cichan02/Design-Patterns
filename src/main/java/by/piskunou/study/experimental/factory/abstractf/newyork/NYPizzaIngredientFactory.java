@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Objects;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+public final class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	private static volatile NYPizzaIngredientFactory INSTANCE;
 
 	public static NYPizzaIngredientFactory getInstance() {
