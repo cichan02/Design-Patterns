@@ -1,13 +1,6 @@
 package by.piskunou.study.behavioral.command;
 
 import by.piskunou.study.Main;
-import by.piskunou.study.behavioral.command.impl.off.CeilingFanOffCommand;
-import by.piskunou.study.behavioral.command.impl.off.GarageDoorDownCommand;
-import by.piskunou.study.behavioral.command.impl.off.LightOffCommand;
-import by.piskunou.study.behavioral.command.impl.off.StereoOffCommand;
-import by.piskunou.study.behavioral.command.impl.on.CeilingFanOnCommand;
-import by.piskunou.study.behavioral.command.impl.on.GarageDoorUpCommand;
-import by.piskunou.study.behavioral.command.impl.on.LightOnCommand;
 import by.piskunou.study.behavioral.command.impl.on.StereoOnWithCDCommand;
 import by.piskunou.study.behavioral.command.invoker.RemoteControl;
 import by.piskunou.study.behavioral.command.receiver.CeilingFan;
@@ -26,25 +19,13 @@ public class CommandMain implements Main {
         GarageDoor garageDoor = new GarageDoor("Garage");
         Stereo stereo = new Stereo("Living Room");
 
-        LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
-        LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
-        LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
-        LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
-
-        CeilingFanOnCommand ceilingFanOn = new CeilingFanOnCommand(ceilingFan);
-        CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
-
-        GarageDoorUpCommand garageDoorUp = new GarageDoorUpCommand(garageDoor);
-        GarageDoorDownCommand garageDoorDown = new GarageDoorDownCommand(garageDoor);
-
         StereoOnWithCDCommand stereoOnWithCD = new StereoOnWithCDCommand(stereo);
-        StereoOffCommand stereoOff = new StereoOffCommand(stereo);
 
-        remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
-        remoteControl.setCommand(1, kitchenLightOn, kitchenLightOff);
-        remoteControl.setCommand(2, ceilingFanOn, ceilingFanOff);
-        remoteControl.setCommand(3, stereoOnWithCD, stereoOff);
-        remoteControl.setCommand(4, garageDoorUp, garageDoorDown);
+        remoteControl.setCommand(0, livingRoomLight::on, livingRoomLight::off);
+        remoteControl.setCommand(1, kitchenLight::on, kitchenLight::off);
+        remoteControl.setCommand(2, ceilingFan::high, ceilingFan::off);
+        remoteControl.setCommand(3, stereoOnWithCD, stereo::off);
+        remoteControl.setCommand(4, garageDoor::up, garageDoor::down);
 
         System.out.println(remoteControl);
 
