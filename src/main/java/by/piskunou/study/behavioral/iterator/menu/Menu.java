@@ -1,5 +1,14 @@
 package by.piskunou.study.behavioral.iterator.menu;
 
-public interface Menu extends Iterable<MenuItem> {
-	void addItem(MenuItem menuItem);
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public abstract class Menu implements Iterable<MenuItem> {
+	protected String name;
+
+	public abstract void addItem(MenuItem menuItem);
 }

@@ -1,5 +1,6 @@
 package by.piskunou.study.behavioral.iterator.menu.impl;
 
+import by.piskunou.study.behavioral.iterator.menu.Menu;
 import by.piskunou.study.behavioral.iterator.menu.MenuItem;
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +12,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class PancakeHouseMenu extends AbstractMenu {
+public class PancakeHouseMenu extends Menu {
 	private List<MenuItem> menuItems;
 	
 	{

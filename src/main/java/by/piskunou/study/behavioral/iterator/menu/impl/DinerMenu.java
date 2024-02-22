@@ -1,6 +1,7 @@
 package by.piskunou.study.behavioral.iterator.menu.impl;
 
 import by.piskunou.study.behavioral.iterator.impl.DinerMenuIterator;
+import by.piskunou.study.behavioral.iterator.menu.Menu;
 import by.piskunou.study.behavioral.iterator.menu.MenuItem;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 
-public class DinerMenu extends AbstractMenu {
+public class DinerMenu extends Menu {
 	private static final int MAX_ITEMS = 6;
 
 	@Getter
