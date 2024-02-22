@@ -1,7 +1,5 @@
 package by.piskunou.study.behavioral.iterator.menu;
 
-import java.util.Iterator;
-
-public interface Menu {
-	Iterator<MenuItem> createIterator();
+public interface Menu extends Iterable<MenuItem> {
+	void addItem(MenuItem menuItem);
 }

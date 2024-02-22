@@ -1,33 +1,28 @@
 package by.piskunou.study.behavioral.iterator;
 
-import by.piskunou.study.behavioral.iterator.menu.Menu;
 import by.piskunou.study.behavioral.iterator.menu.MenuItem;
+import by.piskunou.study.behavioral.iterator.menu.impl.AbstractMenu;
 import lombok.AllArgsConstructor;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Iterator;
+import java.util.List;
 
 @AllArgsConstructor
 public class Waitress {
-	private final Menu pancakeHouseMenu;
-	private final Menu dinerMenu;
-	private final Menu cafeMenu;
+	private List<AbstractMenu> menus;
 
-	public void printMenu() {
-		System.out.println("MENU\n----\nBREAKFAST");
-		printMenu(pancakeHouseMenu.createIterator());
-		System.out.println("\nLUNCH");
-		printMenu(dinerMenu.createIterator());
-		System.out.println("\nDINNER");
-		printMenu(cafeMenu.createIterator());
+	public void printAllMenus() {
+		System.out.println("MENU\n----------------------------------------------------------------\n");
+		menus.forEach(this::printMenu);
 	}
 
-	public void printMenu(@NotNull Iterator<MenuItem> iterator) {
-		while (iterator.hasNext()) {
-			MenuItem menuItem = iterator.next();
+	public void printMenu(@NotNull AbstractMenu menu) {
+		System.out.println(menu.getName());
+		for (MenuItem menuItem: menu) {
 			System.out.print(menuItem.getName() + ", ");
 			System.out.print(menuItem.getPrice() + " -- ");
 			System.out.println(menuItem.getDescription());
 		}
+		System.out.println();
 	}
 }

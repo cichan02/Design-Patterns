@@ -10,6 +10,6 @@ import lombok.Setter;
 public class MenuItem {
 	private String name;
 	private String description;
-	private boolean vegetarian;
+	private boolean isVegetarian;
 	private double price;
 }

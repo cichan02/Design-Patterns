@@ -1,4 +1,6 @@
-package by.piskunou.study.behavioral.iterator.menu;
+package by.piskunou.study.behavioral.iterator.impl;
+
+import by.piskunou.study.behavioral.iterator.menu.MenuItem;
 
 import java.util.Iterator;
 

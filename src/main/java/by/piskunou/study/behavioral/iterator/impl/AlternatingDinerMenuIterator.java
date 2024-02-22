@@ -1,25 +1,27 @@
-package by.piskunou.study.behavioral.iterator.menu;
+package by.piskunou.study.behavioral.iterator.impl;
+
+import by.piskunou.study.behavioral.iterator.menu.MenuItem;
 
 import java.util.Calendar;
 import java.util.Iterator;
 
 public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {
-	private final MenuItem[] items;
+	private final MenuItem[] menuItems;
 	private int position;
 
-	public AlternatingDinerMenuIterator(MenuItem[] items) {
-		this.items = items;
+	public AlternatingDinerMenuIterator(MenuItem[] menuItems) {
+		this.menuItems = menuItems;
 		this.position = Calendar.DAY_OF_WEEK % 2;
 	}
 
 	@Override
 	public boolean hasNext() {
-        return position < items.length && items[position] != null;
+        return position < menuItems.length && menuItems[position] != null;
     }
 
 	@Override
 	public MenuItem next() {
-		MenuItem menuItem = items[position];
+		MenuItem menuItem = menuItems[position];
 		position += 2;
 		return menuItem;
 	}
