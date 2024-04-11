@@ -1,13 +1,11 @@
 package by.piskunou.study.structural.composite;
 
 import by.piskunou.study.structural.composite.menu.MenuComponent;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class Waitress {
-	MenuComponent allMenus;
- 
-	public Waitress(MenuComponent allMenus) {
-		this.allMenus = allMenus;
-	}
+	private final MenuComponent allMenus;
  
 	public void printMenu() {
 		allMenus.print();

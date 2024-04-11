@@ -14,11 +14,11 @@ public class MenuItem extends MenuComponent {
 	private double price;
 	
 	public void print() {
-		System.out.print(" " + this.name);
-		if(isVegetarian()) {
+		System.out.print(" " + name);
+		if(vegetarian) {
 			System.out.print("(v)");
 		}
-		System.out.println(", " + this.price);
-		System.out.println("   --" + this.description);
+		System.out.println(", " + price);
+		System.out.println("   --" + description);
 	}
 }
