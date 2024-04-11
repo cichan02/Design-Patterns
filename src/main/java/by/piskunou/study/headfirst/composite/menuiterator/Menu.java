@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menuiterator;
+package by.piskunou.study.headfirst.composite.menuiterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

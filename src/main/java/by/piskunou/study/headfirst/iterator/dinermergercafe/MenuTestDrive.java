@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package by.piskunou.study.headfirst.iterator.dinermergercafe;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {

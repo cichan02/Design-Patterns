@@ -1,4 +1,4 @@
-package headfirst.designpatterns.ducks;
+package by.piskunou.study.headfirst.ducks;
 
 public class TurkeyTestDrive {
 	public static void main(String[] args) {

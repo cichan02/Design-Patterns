@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer.simple;
+package by.piskunou.study.headfirst.observer.simple;
 
 public class Example {
 

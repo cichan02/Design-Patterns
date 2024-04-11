@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.factory;
+package by.piskunou.study.headfirst.combining.factory;
 
 public class RedheadDuck implements Quackable {
 	public void quack() {

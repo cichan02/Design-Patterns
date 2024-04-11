@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.observer;
+package by.piskunou.study.headfirst.combining.observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,14 +1,21 @@
-package headfirst.designpatterns.observer.weather;
+package by.piskunou.study.headfirst.observer.weather;
+
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 
 public class WeatherData implements Subject {
-	private List<Observer> observers;
-	private float temperature;
-	private float humidity;
-	private float pressure;
+	private final List<Observer> observers;
+
+	@Getter
+    private float temperature;
+
+	@Getter
+    private float humidity;
+
+	@Getter
+    private float pressure;
 	
 	public WeatherData() {
 		observers = new ArrayList<Observer>();
@@ -38,17 +45,4 @@ public class WeatherData implements Subject {
 		this.pressure = pressure;
 		measurementsChanged();
 	}
-
-	public float getTemperature() {
-		return temperature;
-	}
-	
-	public float getHumidity() {
-		return humidity;
-	}
-	
-	public float getPressure() {
-		return pressure;
-	}
-
 }

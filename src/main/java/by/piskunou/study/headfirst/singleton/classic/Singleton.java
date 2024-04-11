@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.classic;
+package by.piskunou.study.headfirst.singleton.classic;
 
 // NOTE: This is not thread safe!
 

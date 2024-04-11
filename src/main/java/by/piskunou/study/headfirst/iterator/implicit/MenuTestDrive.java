@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.implicit;
+package by.piskunou.study.headfirst.iterator.implicit;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {

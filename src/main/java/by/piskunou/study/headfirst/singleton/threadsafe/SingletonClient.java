@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.threadsafe;
+package by.piskunou.study.headfirst.singleton.threadsafe;
 
 public class SingletonClient {
 	public static void main(String[] args) {

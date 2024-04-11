@@ -1,4 +1,4 @@
-package headfirst.designpatterns.ducks;
+package by.piskunou.study.headfirst.ducks;
 
 public interface Duck {
 	public void quack();

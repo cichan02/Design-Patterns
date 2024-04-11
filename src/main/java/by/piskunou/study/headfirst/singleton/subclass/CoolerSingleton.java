@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.subclass;
+package by.piskunou.study.headfirst.singleton.subclass;
 
 public class CoolerSingleton extends Singleton {
 	// useful instance variables here

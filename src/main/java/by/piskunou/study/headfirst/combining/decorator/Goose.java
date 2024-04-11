@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.decorator;
+package by.piskunou.study.headfirst.combining.decorator;
 
 public class Goose {
 	public void honk() {

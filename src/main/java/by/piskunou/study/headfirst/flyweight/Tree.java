@@ -1,4 +1,4 @@
-package headfirst.designpatterns.flyweight;
+package by.piskunou.study.headfirst.flyweight;
 
 import java.time.LocalDate;
 import java.time.Month;

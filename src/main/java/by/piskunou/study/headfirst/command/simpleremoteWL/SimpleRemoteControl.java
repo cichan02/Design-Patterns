@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.simpleremoteWL;
+package by.piskunou.study.headfirst.command.simpleremoteWL;
 
 //
 // This is the invoker

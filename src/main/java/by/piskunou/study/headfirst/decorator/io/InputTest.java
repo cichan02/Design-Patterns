@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.io;
+package by.piskunou.study.headfirst.decorator.io;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

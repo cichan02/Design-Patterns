@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.virtualproxy;
+package by.piskunou.study.headfirst.proxy.virtualproxy;
 
 import javax.swing.Icon;
 import javax.swing.JFrame;

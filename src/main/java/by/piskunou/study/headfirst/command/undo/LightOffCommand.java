@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.undo;
+package by.piskunou.study.headfirst.command.undo;
 
 public class LightOffCommand implements Command {
 	Light light;

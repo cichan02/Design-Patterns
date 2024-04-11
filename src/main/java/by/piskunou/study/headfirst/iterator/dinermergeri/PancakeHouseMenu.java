@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.dinermergeri;
+package by.piskunou.study.headfirst.iterator.dinermergeri;
 
 import java.util.ArrayList;
 import java.util.Iterator;

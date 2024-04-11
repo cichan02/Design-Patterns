@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.gumballmonitor;
+package by.piskunou.study.headfirst.proxy.gumballmonitor;
 
 
 import java.util.Random;

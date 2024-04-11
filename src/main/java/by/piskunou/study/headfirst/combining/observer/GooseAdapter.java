@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.observer;
+package by.piskunou.study.headfirst.combining.observer;
 
 public class GooseAdapter implements Quackable {
 	Goose goose;

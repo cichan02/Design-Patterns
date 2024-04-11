@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.simpleremote;
+package by.piskunou.study.headfirst.command.simpleremote;
 
 public class LightOnCommand implements Command {
 	Light light;

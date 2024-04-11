@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.gumballmonitor;
+package by.piskunou.study.headfirst.proxy.gumballmonitor;
 
 public class NoQuarterState implements State {
 	private static final long serialVersionUID = 2L;

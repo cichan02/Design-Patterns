@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.dcl;
+package by.piskunou.study.headfirst.singleton.dcl;
 
 //
 // Danger!  This implementation of Singleton not

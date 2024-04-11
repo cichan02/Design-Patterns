@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer.simpleobservable;
+package by.piskunou.study.headfirst.observer.simpleobservable;
 
 import java.util.Observable;
 import java.util.Observer;

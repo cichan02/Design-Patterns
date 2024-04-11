@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package by.piskunou.study.headfirst.iterator.dinermergercafe;
  
 import java.util.Iterator;
   

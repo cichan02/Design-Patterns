@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.adapter;
+package by.piskunou.study.headfirst.combining.adapter;
 
 public class RubberDuck implements Quackable {
 	public void quack() {

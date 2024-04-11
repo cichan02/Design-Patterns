@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.starbuzzWithSizes;
+package by.piskunou.study.headfirst.decorator.starbuzzWithSizes;
 
 public class Mocha extends CondimentDecorator {
 	public Mocha(Beverage beverage) {

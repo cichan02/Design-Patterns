@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.simpleremote;
+package by.piskunou.study.headfirst.command.simpleremote;
 
 public class GarageDoorOpenCommand implements Command {
 	GarageDoor garageDoor;

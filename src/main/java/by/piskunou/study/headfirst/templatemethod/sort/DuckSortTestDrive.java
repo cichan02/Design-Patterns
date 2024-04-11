@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.sort;
+package by.piskunou.study.headfirst.templatemethod.sort;
 
 import java.util.Arrays;
 

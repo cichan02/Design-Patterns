@@ -1,4 +1,4 @@
-package headfirst.designpatterns.ducks;
+package by.piskunou.study.headfirst.ducks;
 import java.util.Random;
 
 public class DuckAdapter implements Turkey {

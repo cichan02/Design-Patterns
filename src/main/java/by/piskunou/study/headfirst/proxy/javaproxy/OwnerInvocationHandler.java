@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.javaproxy;
+package by.piskunou.study.headfirst.proxy.javaproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

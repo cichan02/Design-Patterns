@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.barista;
+package by.piskunou.study.headfirst.templatemethod.barista;
 
 public class BeverageTestDrive {
 	public static void main(String[] args) {

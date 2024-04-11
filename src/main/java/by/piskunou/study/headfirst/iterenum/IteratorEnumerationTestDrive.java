@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterenum;
+package by.piskunou.study.headfirst.iterenum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

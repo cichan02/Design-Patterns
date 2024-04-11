@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.dinermerger;
+package by.piskunou.study.headfirst.iterator.dinermerger;
 
 public class DinerMenu implements Menu {
 	static final int MAX_ITEMS = 6;

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.challenge;
+package by.piskunou.study.headfirst.factory.challenge;
 
 import java.util.List;
 

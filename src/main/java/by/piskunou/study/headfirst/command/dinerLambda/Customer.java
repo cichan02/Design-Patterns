@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.dinerLambda;
+package by.piskunou.study.headfirst.command.dinerLambda;
 
 public class Customer {
 	Waitress waitress;

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.pizza;
+package by.piskunou.study.headfirst.decorator.pizza;
 
 public abstract class Pizza {
 	String description = "Basic Pizza";

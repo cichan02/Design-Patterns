@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.simplebarista;
+package by.piskunou.study.headfirst.templatemethod.simplebarista;
 
 public class Coffee {
  

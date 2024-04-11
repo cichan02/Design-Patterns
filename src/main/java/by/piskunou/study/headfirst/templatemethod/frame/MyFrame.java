@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.frame;
+package by.piskunou.study.headfirst.templatemethod.frame;
 
 import javax.swing.JFrame;
 

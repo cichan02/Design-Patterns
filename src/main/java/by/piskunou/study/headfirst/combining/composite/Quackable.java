@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.composite;
+package by.piskunou.study.headfirst.combining.composite;
 
 public interface Quackable {
 	public void quack();

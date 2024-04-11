@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzafm;
+package by.piskunou.study.headfirst.factory.pizzafm;
 
 public class ChicagoStyleClamPizza extends Pizza {
 	public ChicagoStyleClamPizza() {

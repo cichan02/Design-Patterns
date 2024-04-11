@@ -1,9 +1,8 @@
-package headfirst.designpatterns.combining.observer;
+package by.piskunou.study.headfirst.combining.observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Observer;
 
 public class Flock implements Quackable {
 	List<Quackable> ducks = new ArrayList<Quackable>();
@@ -19,7 +18,8 @@ public class Flock implements Quackable {
 			duck.quack();
 		}
 	}
-   
+
+	@Override
 	public void registerObserver(Observer observer) {
 		Iterator<Quackable> iterator = ducks.iterator();
 		while (iterator.hasNext()) {
@@ -27,7 +27,7 @@ public class Flock implements Quackable {
 			duck.registerObserver(observer);
 		}
 	}
-  
+
 	public void notifyObservers() { }
   
 	public String toString() {

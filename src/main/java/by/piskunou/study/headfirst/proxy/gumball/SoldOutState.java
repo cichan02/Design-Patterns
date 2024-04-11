@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.gumball;
+package by.piskunou.study.headfirst.proxy.gumball;
 
 public class SoldOutState implements State {
 	private static final long serialVersionUID = 2L;

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.stat;
+package by.piskunou.study.headfirst.singleton.stat;
 
 public class Singleton {
 	private static Singleton uniqueInstance = new Singleton();

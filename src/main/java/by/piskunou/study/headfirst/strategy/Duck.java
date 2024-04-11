@@ -1,4 +1,4 @@
-package headfirst.designpatterns.strategy;
+package by.piskunou.study.headfirst.strategy;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;

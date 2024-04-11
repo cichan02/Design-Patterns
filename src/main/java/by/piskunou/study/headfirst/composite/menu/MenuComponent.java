@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menu;
+package by.piskunou.study.headfirst.composite.menu;
 
 public abstract class MenuComponent {
    

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.list;
+package by.piskunou.study.headfirst.templatemethod.list;
 
 import java.util.AbstractList;
 

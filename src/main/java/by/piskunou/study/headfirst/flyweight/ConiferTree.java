@@ -1,4 +1,4 @@
-package headfirst.designpatterns.flyweight;
+package by.piskunou.study.headfirst.flyweight;
 
 public class ConiferTree implements Tree {
 	// Complex trunk, branch, needle graphic data

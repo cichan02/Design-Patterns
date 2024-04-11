@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.swing;
+package by.piskunou.study.headfirst.command.swing;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

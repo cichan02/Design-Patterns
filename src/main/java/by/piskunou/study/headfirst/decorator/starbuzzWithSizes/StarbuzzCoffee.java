@@ -1,6 +1,6 @@
-package headfirst.designpatterns.decorator.starbuzzWithSizes;
+package by.piskunou.study.headfirst.decorator.starbuzzWithSizes;
 
-import headfirst.designpatterns.decorator.starbuzzWithSizes.Beverage.Size;
+import by.piskunou.study.headfirst.decorator.starbuzzWithSizes.Beverage.Size;
 
 public class StarbuzzCoffee {
  

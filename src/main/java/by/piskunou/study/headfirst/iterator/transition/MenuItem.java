@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.transition;
+package by.piskunou.study.headfirst.iterator.transition;
 
 public class MenuItem {
 	String name;

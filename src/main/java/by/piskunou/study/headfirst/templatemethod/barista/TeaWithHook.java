@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.barista;
+package by.piskunou.study.headfirst.templatemethod.barista;
 
 import java.io.BufferedReader;
 import java.io.IOException;

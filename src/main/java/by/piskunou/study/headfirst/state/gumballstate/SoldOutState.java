@@ -1,4 +1,4 @@
-package headfirst.designpatterns.state.gumballstate;
+package by.piskunou.study.headfirst.state.gumballstate;
 
 public class SoldOutState implements State {
     GumballMachine gumballMachine;

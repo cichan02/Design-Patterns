@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.diner;
+package by.piskunou.study.headfirst.command.diner;
 
 @FunctionalInterface
 public interface Order {

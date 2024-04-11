@@ -1,4 +1,4 @@
-package headfirst.designpatterns.state.gumball;
+package by.piskunou.study.headfirst.state.gumball;
 
 public class GumballMachine {
  

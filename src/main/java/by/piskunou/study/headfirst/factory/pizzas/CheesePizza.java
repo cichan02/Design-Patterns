@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzas;
+package by.piskunou.study.headfirst.factory.pizzas;
 
 public class CheesePizza extends Pizza {
 	public CheesePizza() {

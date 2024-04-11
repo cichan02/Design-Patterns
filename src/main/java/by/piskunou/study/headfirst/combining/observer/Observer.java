@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.observer;
+package by.piskunou.study.headfirst.combining.observer;
 
 public interface Observer {
 	public void update(QuackObservable duck);

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.proxy.gumball;
+package by.piskunou.study.headfirst.proxy.gumball;
 
 import java.rmi.RemoteException;
  

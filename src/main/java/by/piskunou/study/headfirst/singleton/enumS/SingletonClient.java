@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.enumS;
+package by.piskunou.study.headfirst.singleton.enumS;
 
 public class SingletonClient {
 	public static void main(String[] args) {

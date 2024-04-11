@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.remote;
+package by.piskunou.study.headfirst.command.remote;
 
 public class CeilingFanOffCommand implements Command {
 	CeilingFan ceilingFan;

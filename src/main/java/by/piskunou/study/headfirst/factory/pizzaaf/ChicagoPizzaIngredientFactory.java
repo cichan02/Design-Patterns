@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzaaf;
+package by.piskunou.study.headfirst.factory.pizzaaf;
 
 public class ChicagoPizzaIngredientFactory 
 	implements PizzaIngredientFactory 

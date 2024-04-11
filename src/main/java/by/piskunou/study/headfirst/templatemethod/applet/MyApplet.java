@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.applet;
+package by.piskunou.study.headfirst.templatemethod.applet;
 
 import java.applet.Applet;
 import java.awt.Graphics;

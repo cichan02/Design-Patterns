@@ -1,4 +1,4 @@
-package headfirst.designpatterns.prototype;
+package by.piskunou.study.headfirst.prototype;
 
 public class Dragon extends Monster {
 	public Dragon(String name, boolean hasWings) {

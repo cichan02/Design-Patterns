@@ -1,4 +1,4 @@
-package headfirst.designpatterns.strategy;
+package by.piskunou.study.headfirst.strategy;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {

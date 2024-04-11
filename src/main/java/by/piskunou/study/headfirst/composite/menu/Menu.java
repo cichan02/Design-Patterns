@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menu;
+package by.piskunou.study.headfirst.composite.menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.transition;
+package by.piskunou.study.headfirst.iterator.transition;
 
 import java.util.ArrayList;
 import java.util.Iterator;

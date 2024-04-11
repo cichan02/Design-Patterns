@@ -1,4 +1,4 @@
-package headfirst.designpatterns.singleton.subclass;
+package by.piskunou.study.headfirst.singleton.subclass;
 
 public class Singleton {
 	protected static Singleton uniqueInstance;

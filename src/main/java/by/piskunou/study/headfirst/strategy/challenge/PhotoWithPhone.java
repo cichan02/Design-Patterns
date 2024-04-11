@@ -1,4 +1,4 @@
-package headfirst.designpatterns.strategy.challenge;
+package by.piskunou.study.headfirst.strategy.challenge;
 
 import java.util.Scanner;
 

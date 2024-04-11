@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer.weather;
+package by.piskunou.study.headfirst.observer.weather;
 
 public interface Subject {
 	public void registerObserver(Observer o);

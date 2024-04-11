@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.challenge;
+package by.piskunou.study.headfirst.factory.challenge;
 
 public class ZonePacific extends Zone {
 	public ZonePacific() {

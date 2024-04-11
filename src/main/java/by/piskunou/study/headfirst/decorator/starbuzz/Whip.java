@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.starbuzz;
+package by.piskunou.study.headfirst.decorator.starbuzz;
  
 public class Whip extends CondimentDecorator {
 	public Whip(Beverage beverage) {

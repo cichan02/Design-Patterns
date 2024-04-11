@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.remoteWL;
+package by.piskunou.study.headfirst.command.remoteWL;
 
 public class TV {
 	String location;

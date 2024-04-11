@@ -1,4 +1,4 @@
-package headfirst.designpatterns.flyweight;
+package by.piskunou.study.headfirst.flyweight;
 
 public class TreeFactory {
 	Tree d, c = null;

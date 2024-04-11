@@ -1,4 +1,4 @@
-package headfirst.designpatterns.prototype;
+package by.piskunou.study.headfirst.prototype;
 
 public class Drakon extends Monster {
 	public Drakon(String name, int numHeads, boolean canBreatheFire) {

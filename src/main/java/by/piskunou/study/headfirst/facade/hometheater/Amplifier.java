@@ -1,4 +1,4 @@
-package headfirst.designpatterns.facade.hometheater;
+package by.piskunou.study.headfirst.facade.hometheater;
 
 public class Amplifier {
 	String description;

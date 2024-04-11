@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.ducks;
+package by.piskunou.study.headfirst.combining.ducks;
 
 public class DuckSimulator {
 	public static void main(String[] args) {

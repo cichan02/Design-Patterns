@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.party;
+package by.piskunou.study.headfirst.command.party;
 
 public class Light {
 	String location;

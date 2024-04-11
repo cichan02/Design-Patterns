@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.barista;
+package by.piskunou.study.headfirst.templatemethod.barista;
 
 public class Coffee extends CaffeineBeverage {
 	public void brew() {
